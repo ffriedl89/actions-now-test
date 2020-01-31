@@ -25,5 +25,5 @@ jobs:
       with:
         # zeit.co token
         zeit-token: ${{ secrets.NOW }}
-        github-token: ${{ secrets.GIT }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
         now-args: './dist/actions-now-test'
